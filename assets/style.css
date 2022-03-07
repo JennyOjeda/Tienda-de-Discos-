@@ -1,0 +1,55 @@
+
+body { 
+     /* estamos creando el fondo de la pagina web  */
+    background-image: url(../assets/img/imag5.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Cochin,center;
+      
+}
+.dis-nav {
+    background-color: rgb(240, 231, 105) ;
+    border-radius: 10px;
+    margin: 50px; ;
+    position: center;
+}
+.dis-nav, h1, p{
+    position: center;
+}
+.formulario {
+    width:300px;
+    background-color: gainsboro;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 75px;
+    padding : 20px;
+    box-shadow: 0 0 30px 1px rgb(240, 231, 105);
+    position: left;
+    border-radius: 20px;
+    position: left center; 
+}
+.formulario__titulo, .h1{
+    text-align: center;
+}
+th{
+    text-align: center;
+    margin-top: 30px;
+    padding:20px 5PX 10PX 10PX;
+    border: solid black 2px;
+    background-color: pink
+}
+td, .button{
+    border: solid black 2px;
+    text-align: center;
+    margin-top: 30px;
+    padding:10px ;
+    background-color: write-green
+}
+.tableFormat table{
+    margin: 70px 50px;
+    position: center;
+    background-color:yellowgreen;
+}
+

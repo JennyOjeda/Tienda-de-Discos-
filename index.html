@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title> Proyecto M3 </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet"  href="assets/style.css">
+
+</head>
+<body>
+        <div class="dis-nav">
+            <h1> GRAFITO </h1>
+              <p>Tienda de discos</p>
+        </div>s
+        
+    <!-- diseñar el formulario -->
+        <div class="Container"> 
+        <form action="" class="formulario" id="formularioDisco">
+            <h1 class="formulario__titulo">DETALLES DEL DISCO</h1>
+            <div>  
+                <p>Nombre</p>
+                <input id="nombre"  type="text" class="formulario__input">
+                <label for="nombre" ></label>
+                       
+                <p>Precio</p>
+                <input id="precio" type="text" class="formulario__input">
+                <label for="precio"></label>
+             
+                <p>Año</p>
+                <input id="año" type="text" class="formulario__input">
+                <label for="año"></label>
+                
+                <button id="boton" class="btn btn-success" type= "reset" onclick="llenarDatos();"> Registrar </button>
+            </div> 
+        </form>
+        </div>
+
+    <!--CREAR TABLAS--> 
+        <div class= "tableFormat">
+            <table id="tabla">
+                <tr>
+                    <th> <!--cabecera de la tabla -->
+                        ID
+                    </th>
+                    <th>
+                        NOMBRE
+                    </th>
+                    <th>
+                        PRECIO
+                    </th>
+                    <th>
+                        AÑO
+                    </th>
+                    <th>
+                        ACCION
+                    </th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td> </td> 
+                        <td> </td> 
+                        <td> </td>  
+                        <td> </td>
+                        <td> 
+                        <button>Borrar</button>
+                        </td>
+                    </tr>
+                </tbody> 
+            </table>
+        </div>
+           
+            <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"> -->
+                <!-- <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/img/imag1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/imag2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/imag3.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/imag6.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/imag7.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div> -->
+            
+            
+              
+
+           
+            
+    
+    
+    
+    
+    
+    
+
+    <script src="assets/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
